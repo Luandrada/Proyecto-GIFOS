@@ -11,82 +11,8 @@ $fte-sec:'Roboto', sans-serif;
 
 @import "_partials/header";
 
-.uno{
-    margin-top: 7px;
-    h2{
-        color: $color-ppal;
-        font-family: $fte-ppal;
-        font-size: 25px;
-        text-align: center;
-        line-height: 33px;
-        width: 76vw;
-        margin-left: auto;
-        margin-right: auto;
-        .gifos{
-            color: $color-sec;
-        }
-    }
-    .inicio_buscador{
-        width: 273px;
-        height: 130px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 31px;
-    }
-    .barra_busqueda{
-        margin-left: auto;
-        margin-right: auto;
-        width: fit-content;
-        height: fit-content;
-        
-        #buscador{
-            width: 334px;
-            height: 50px;
-            border: 1px solid $color-ppal;
-            border-radius: 27px;
-            display: block;
-            padding: 15px 0px 13px 55px ;
-            font-size:16px ;
-            font-family:$fte-sec ;
-        }
-        #lupa{
-            width: 20px;
-            height: 20px;
-            transform: translate(290px, -35px);
-            
-        }
-    }
-    h3{
-        color: $color-ppal;
-        font-size: 16px;
-        text-align: center;
-        line-height: 25px;  
-        font-family: $fte-ppal;
-        font-weight: bold;
-    }
-    p{
-        text-align: center;
-        line-height: 25px;
-        font-size: 14px;
-        color: $color-ppal;
-        font-family: $fte-ppal;
-        width: 60vw;
-        margin-left: auto;
-        margin-right: auto;
-       
-    }
-}
+@import "_partials/seccion1";
 
-.dos{
-    h2{
-        color: $color-ppal;
-        font-family: $fte-ppal;
-        font-size: 25px;
-        text-align: center;
-        line-height: 33px;
-        width: 76vw;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
+@import "_partials/seccion2";
+
+@import "_partials/footer";

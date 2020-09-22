@@ -1,0 +1,22 @@
+.dos{
+    background-color: #F3F5F8;
+    padding-top: 46px;
+    margin-top: 45px;
+    padding-bottom: 82px;
+    h3{
+        color: $color-ppal;
+        font-family: $fte-ppal;
+        font-size: 20px;
+        text-align: center;
+        line-height: 30px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 23px;
+        font-family: $fte-sec;
+        text-align: center;
+        width: 88vw;
+        
+        margin: 7px auto 32px auto;
+    }
+}
