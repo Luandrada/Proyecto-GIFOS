@@ -76,4 +76,92 @@ header nav ul .linea {
   margin-left: auto;
   margin-right: auto;
 }
+
+.uno {
+  margin-top: 7px;
+}
+
+.uno h2 {
+  color: #572EE5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  line-height: 33px;
+  width: 76vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.uno h2 .gifos {
+  color: #50E3C2;
+}
+
+.uno .inicio_buscador {
+  width: 273px;
+  height: 130px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 31px;
+}
+
+.uno .barra_busqueda {
+  margin-left: auto;
+  margin-right: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.uno .barra_busqueda #buscador {
+  width: 334px;
+  height: 50px;
+  border: 1px solid #572EE5;
+  border-radius: 27px;
+  display: block;
+  padding: 15px 0px 13px 55px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+.uno .barra_busqueda #lupa {
+  width: 20px;
+  height: 20px;
+  -webkit-transform: translate(290px, -35px);
+          transform: translate(290px, -35px);
+}
+
+.uno h3 {
+  color: #572EE5;
+  font-size: 16px;
+  text-align: center;
+  line-height: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.uno p {
+  text-align: center;
+  line-height: 25px;
+  font-size: 14px;
+  color: #572EE5;
+  font-family: "Montserrat", sans-serif;
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dos h2 {
+  color: #572EE5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  line-height: 33px;
+  width: 76vw;
+  margin-left: auto;
+  margin-right: auto;
+}
 /*# sourceMappingURL=styles.css.map */
