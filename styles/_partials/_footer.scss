@@ -13,20 +13,24 @@ footer{
     .contenedor_redes{
         display: flex;
         justify-content: space-between;
+        align-items: center;
         margin-top: 22px;
         width: 96px;
         margin-bottom: 47.8px;
         .facebook{
             width: 20px;
             height: 20px;
+          
         }
         .twitter{
             width: 18px;
             height: 16.2px;
+           
         }
         .instagram{
             width: 18px;
             height: 18px;
+        
         }
 
         

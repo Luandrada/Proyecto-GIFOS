@@ -6,7 +6,7 @@ header{
     height: 95px;
     border-top: 5px solid $color-ppal;
     
-    img{
+    #logo{
         width: 48.8px;
         height: 48.8px;
         margin-left: 22px;
@@ -16,7 +16,7 @@ header{
        height: 14px;
        margin-right: 41px;
    
-       .menuhamburguesa{
+       #cruz{
            width: 15px;
            height: 14px;
            display: block;
@@ -60,4 +60,7 @@ header{
         }
     }
    
+}
+#menu.active{
+    visibility: visible;
 }
